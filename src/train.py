@@ -14,7 +14,7 @@ def train_model(epochs=100, imgsz=640, batch=16):
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    dataset_yaml = os.path.join(project_root, 'data', 'dataset.yaml')
+    dataset_yaml = os.path.join(project_root, 'data', 'data.yaml')
     models_dir = os.path.join(project_root, 'models')
 
     print(f"Training with config: {dataset_yaml}")
